@@ -1,0 +1,152 @@
+/* Define font size variables */
+:root {
+    --fs-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+  }
+  
+  /* Set default font size */
+  /* body {
+    font-size: var(--fs-base);
+  }
+
+  h1,
+h2,
+h3,
+h4,
+h5 {
+
+  font-weight: true;
+  line-height: 1.15;
+text-wrap: balance;
+  
+}
+  
+
+  h1 {
+    font-size: var(--fs-xxl);
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: var(--fs-xl);
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  h3 {
+    font-size: var(--fs-lg);
+    line-height: 1.4;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  h4 {
+    font-size: var(--fs-md);
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  h5 {
+    font-size: var(--fs-base);
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  h6 {
+    font-size: var(--fs-sm);
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+
+  p {
+    margin-bottom: 1em;
+  }
+  .text-caption {
+    font-size: clamp(0.5rem, 0.71rem, 1vw);
+  }
+  
+  small,
+  .text-small {
+    font-size: clamp(0.25rem, 0.5rem, 0.75vw); 
+  } */
+  
+
+  body {
+    font-family: 'Inter', sans-serif;
+    font-weight: false;
+    line-height: 1.65;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+  
+    font-weight: true;
+    line-height: 1.15;
+      text-wrap: balance;
+    
+  }
+  
+  h1, 
+  .text-size-h1 {
+  
+    font-weight: 400;
+    margin-top: 0;  
+    font-size: clamp(3rem, 5.65rem, 8vw);
+  
+  }
+  
+  h2,
+  .text-size-h2 { 
+    font-size: clamp(2rem, 4rem, 6vw); 
+  }
+  
+  h3,
+  .text-size-h3 {
+    font-size: clamp(1.5rem, 2.83rem, 4vw);
+  }
+  
+  h4,  
+  .text-size-h4 {
+    font-size: clamp(1.25rem, 2rem, 3vw);
+  }
+  
+  h5,
+  .text-size-h5 {
+    font-size: clamp(1rem, 1.41rem, 2vw);  
+  }
+  
+  .text-caption {
+    font-size: clamp(0.5rem, 0.71rem, 1vw);
+  }
+  
+  small,
+  .text-small {
+    font-size: clamp(0.25rem, 0.5rem, 0.75vw); 
+  }
+
+
+  /* Links */
+  a {
+    color: #007bff; /* Default link color */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
